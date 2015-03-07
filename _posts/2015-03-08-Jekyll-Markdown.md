@@ -53,4 +53,3 @@ An image, located within /images
   Finally, horizontal lines
 
   ----
-  ****
