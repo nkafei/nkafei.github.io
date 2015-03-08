@@ -16,7 +16,7 @@ safari生成webclip
 ![_config.yml]({{ site.baseurl }}/images/safari1.gif)
 
 
-其实这种从桌面打开的方式就是苹果的webclip,app上要生成它有2种方式。
+这种效果就是苹果的webclip,app上要生成它主要有2种方式。
 
 ## 通过安装描述文件的方式生成webclip
 - 使用iphone configuration utility生成一个webclip描述文件。
@@ -83,6 +83,7 @@ safari生成webclip
 ```
 
 safari中打开关键代码
+
 ```objectivec
 __weak AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     UInt16 port = appDelegate.httpServer.port;
