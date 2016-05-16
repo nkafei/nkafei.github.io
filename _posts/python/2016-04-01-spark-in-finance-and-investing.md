@@ -39,7 +39,7 @@ Tips: 如果插图看起来不明显，可以：1. 放大网页；2. 新标签�
 
 结果预览，如下图所示哦：
 
-![spark-in-finance-2.jpg](../images/spark-in-finance-2.jpg)
+![spark-in-finance-logo.png](../images/spark-in-finance-logo.png)
 
 
 ## 4. spark 实现指数日内相似度
@@ -220,7 +220,7 @@ res, ax = draw_similarity(target_line, minute_bar_length, similarity_data)
 
 {% endhighlight %}
 
-![spark-in-finance-2.jpg](../images/spark-in-finance-2.jpg)
+![spark-in-finance-logo.png](../images/spark-in-finance-logo.png)
 
 ## 5. Next
 
