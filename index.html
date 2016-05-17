@@ -5,7 +5,7 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <div class="cate-bar">
-          <a href="{{ site.myblog.linkedin }}"><i class="icon-linkedin-sign icon-large"></i><span> Profile</span></a>
+          <a href="{{ site.myblog.linkedin }}><i class="icon-linkedin-sign icon-large"></i><span> Profile</span></a>
           <a href="{{ site.myblog.github }}"><i class="icon-github icon-large"></i><span> Code</span></a>
           <a href="{{ site.myblog.email }}"><i class="icon-envelope icon-large"></i><span> Mail</span></a>
         </div>
@@ -19,6 +19,7 @@ layout: home
         {% endfor %}
         </ul>
     </div>
+
     <script>
       $(function() {
         function geturl() {
@@ -28,10 +29,11 @@ layout: home
         $('div#avatar').transition({ scale: 2.5 }).transition({ opacity: 1, scale: 1 }, 800, 'ease');
       });
     </script>
+
     <div class="aside">
       <div id="avatar" class="avatar circle" style="width: 150px; height: 150px; position: absolute; right: -75px; top: 75px; opacity: 0;">
         <div class="center circle" style="margin-top: 4px; height: 142px; width: 142px; background-image: url('images/logo.png')"></div>
       </div> 
-
     </div>
+
 </div>
