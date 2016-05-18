@@ -76,10 +76,10 @@ exclude:
 
 myblog:
   gavatar: images/logo.jpg
-  linkedin: http://www.linkedin.com/in/nkafei
+  linkedin: https://www.linkedin.com/in/alex-lee-24118933
   github: https://github.com/nkafei
   email: nkafei@qq.com
   coverimgs: []
   postbgimg: []
 
-categories: [python, books]
+categories: [blogs, python, books]
